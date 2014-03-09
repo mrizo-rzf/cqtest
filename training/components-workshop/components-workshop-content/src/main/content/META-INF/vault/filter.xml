@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<workspaceFilter version="1.0">
+    <filter root="/content/components-workshop"/>
+    <filter root="/content/dam/components-workshop">
+        <!-- exclude pattern=".*/renditions.*"/ -->
+    </filter>
+    <filter root="/etc/designs/components-workshop/jcr:content">
+        <include pattern="/etc/designs/components-workshop/jcr:content(/.*)+"/>
+    </filter>
+</workspaceFilter>
